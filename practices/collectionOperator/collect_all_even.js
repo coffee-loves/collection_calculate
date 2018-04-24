@@ -2,7 +2,7 @@
 
 function collect_all_even(collection) {
 
-  var result = new Array();
+  var result = [];
   var j = 0;
   for(var i = 0;i<5;i++)
   {

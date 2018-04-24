@@ -2,12 +2,12 @@
 
 function choose_even(collection) {//filter()不需要写循环，写过滤条件即可
 
-  var choose_even = collection.filter(function (x){
-    if (x%2==0 || x==0){
-      return x;
-    }
+  var col = collection.filter(function (value) {
+
+    return value%2==0;  //filter返回的是布尔值！
+    // }
   })
-  return choose_even;
+  return col;
   //在这里写入代码
 }
 
